@@ -158,9 +158,8 @@ void print_network_dna(Network network) {
 u8 main() {
   srand(time(0));
   init_fruits();
-
-  u8 last_alive_amount = 11;
-  u8 best_brain_index = 11;
+  u8 last_alive_amount = 0;
+  u8 best_brain_index = 0;
   u8 best_ate_amount = 0;
 
   Bot bots[10];
